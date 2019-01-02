@@ -47,4 +47,8 @@ var app6 = new Vue({
   data: {
     message: 'Hello Vue!'
   }
-})
+});
+
+Vue.component('todo-item', {
+  template: '<li>这是个待办项</li>'
+});
